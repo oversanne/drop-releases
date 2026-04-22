@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Télécharger Dropover</title>
+    <style>
+        :root {
+            --bg-color: #0f172a;
+            --text-color: #f8fafc;
+            --accent-color: #3b82f6;
+            --accent-hover: #2563eb;
+            --card-bg: rgba(30, 41, 59, 0.7);
+        }
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-image: radial-gradient(circle at top right, #1e1b4b, #0f172a 60%);
+        }
+        .container {
+            background: var(--card-bg);
+            backdrop-filter: blur(12px);
+            -webkit-backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 24px;
+            padding: 3rem 2rem;
+            text-align: center;
+            max-width: 400px;
+            width: 90%;
+            box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 0.8s ease-out;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .app-icon {
+            width: 128px;
+            height: 128px;
+            border-radius: 28px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            margin-bottom: 1.5rem;
+            transition: transform 0.3s ease;
+        }
+        .app-icon:hover {
+            transform: scale(1.05);
+        }
+        h1 {
+            margin: 0 0 0.5rem 0;
+            font-size: 2.2rem;
+            font-weight: 700;
+            background: linear-gradient(to right, #60a5fa, #a78bfa);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p {
+            color: #94a3b8;
+            margin: 0 0 2rem 0;
+            font-size: 1.1rem;
+            line-height: 1.5;
+        }
+        .download-btn {
+            display: inline-block;
+            background-color: var(--accent-color);
+            color: white;
+            text-decoration: none;
+            padding: 1rem 2rem;
+            border-radius: 9999px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 14px 0 rgba(59, 130, 246, 0.39);
+            width: 100%;
+            box-sizing: border-box;
+            position: relative;
+            overflow: hidden;
+        }
+        .download-btn:hover {
+            background-color: var(--accent-hover);
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(59, 130, 246, 0.4);
+        }
+        .download-btn.loading {
+            background-color: #475569;
+            pointer-events: none;
+            box-shadow: none;
+        }
+        .version-info {
+            margin-top: 1rem;
+            font-size: 0.85rem;
+            color: #64748b;
+        }
+        .os-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.85rem;
+            color: #cbd5e1;
+            margin-bottom: 1.5rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <img src="icon.png" alt="Dropover Icon" class="app-icon" onerror="this.src='data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjgiIGhlaWdodD0iMTI4Ij48cmVjdCB3aWR0aD0iMTI4IiBoZWlnaHQ9IjEyOCIgZmlsbD0iIzMzMyIgcng9IjI4Ii8+PC9zdmc+'">
+        
+        <h1>Dropover</h1>
+        
+        <div class="os-badge">
+            <svg width="14" height="14" viewBox="0 0 24 24" fill="currentColor"><path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91 1.65.15 3.01.76 3.88 1.96-3.07 1.83-2.58 6.07.41 7.23-.74 1.82-1.72 3.52-3.19 5.43zM14.68 4.31c.44-1.54-.15-3.14-1.28-4.31-1.35.15-3.13 1.05-3.62 2.55-.42 1.34.2 3.01 1.48 4.19 1.42-.16 2.96-1.05 3.42-2.43z"/></svg>
+            macOS 12.0+
+        </div>
+
+        <p>Gardez vos fichiers sous la main.<br>Glissez, déposez, c'est rangé.</p>
+        
+        <a href="#" id="download-link" class="download-btn loading">
+            Recherche de la version...
+        </a>
+        
+        <div id="version-text" class="version-info">
+            Chargement...
+        </div>
+    </div>
+
+    <script>
+        // Ce script va lire le fichier appcast.xml de Sparkle
+        // pour toujours trouver automatiquement le lien du dernier ZIP !
+        document.addEventListener('DOMContentLoaded', async () => {
+            const btn = document.getElementById('download-link');
+            const versionText = document.getElementById('version-text');
+
+            try {
+                // On rajoute un paramètre anti-cache pour toujours avoir le XML le plus récent
+                const response = await fetch('appcast.xml?t=' + new Date().getTime());
+                if (!response.ok) throw new Error('Appcast introuvable');
+                
+                const xmlText = await response.text();
+                const parser = new DOMParser();
+                const xmlDoc = parser.parseFromString(xmlText, "text/xml");
+                
+                // Prendre le premier 'enclosure' (la mise à jour la plus récente)
+                const enclosure = xmlDoc.querySelector('enclosure');
+                
+                if (enclosure) {
+                    const downloadUrl = enclosure.getAttribute('url');
+                    const version = enclosure.getAttribute('sparkle:shortVersionString') || enclosure.getAttribute('sparkle:version');
+                    
+                    btn.href = downloadUrl;
+                    btn.textContent = 'Télécharger Dropover';
+                    btn.classList.remove('loading');
+                    
+                    versionText.textContent = `Version ${version} (Gratuit)`;
+                } else {
+                    throw new Error('Aucune version trouvée');
+                }
+            } catch (error) {
+                console.error("Erreur de récupération:", error);
+                // Fallback de sécurité si le XML n'est pas encore poussé
+                btn.href = "Dropover_v1.0_b1.zip"; // Lien statique par défaut
+                btn.textContent = 'Télécharger Dropover';
+                btn.classList.remove('loading');
+                versionText.textContent = "Version 1.0";
+            }
+        });
+    </script>
+</body>
+</html>

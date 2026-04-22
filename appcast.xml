@@ -8,7 +8,7 @@
             <sparkle:version>1</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
-            <enclosure url="https://oversanne.github.io/drop-releases/Dropover_v1.0_b1.zip" length="3179253" type="application/octet-stream" sparkle:edSignature="mWdpm9vQauwGmBmnaptmC1tfOKg/mKOjcrvcha5RNS7mnwXJQo9M5PQ/Je4Wgk3u59XqYXIxuPk7Q+7W+9qCBw=="/>
+            <enclosure url="https://oversanne.github.io/drop-releases/Drop-my-files_v1.0_b1.zip" length="3194155" type="application/octet-stream" sparkle:edSignature="rdtEcaA2DpYSLps/Y+YvmQ0XrqFWvLMD8veKGiRX7aDkXyKDfT++EJGfekcAWGzsy/NknnR/71AnjnNNJH9EAA=="/>
         </item>
     </channel>
 </rss>

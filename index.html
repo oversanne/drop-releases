@@ -154,7 +154,16 @@
                 
                 if (enclosure) {
                     const downloadUrl = enclosure.getAttribute('url');
-                    const version = enclosure.getAttribute('sparkle:shortVersionString') || enclosure.getAttribute('sparkle:version');
+                    
+                    // La version est dans une balise <sparkle:shortVersionString> à côté de <enclosure>
+                    const item = enclosure.closest('item') || enclosure.parentNode;
+                    let version = "1.0"; // fallback
+                    if (item) {
+                        const shortVerNode = item.getElementsByTagNameNS('*', 'shortVersionString')[0] || item.getElementsByTagName('sparkle:shortVersionString')[0];
+                        const verNode = item.getElementsByTagNameNS('*', 'version')[0] || item.getElementsByTagName('sparkle:version')[0];
+                        if (shortVerNode) version = shortVerNode.textContent;
+                        else if (verNode) version = verNode.textContent;
+                    }
                     
                     btn.href = downloadUrl;
                     btn.textContent = 'Télécharger Drop-my-files';

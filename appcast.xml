@@ -4,6 +4,21 @@
         <title>Dropover</title>
         <item>
             <title>1.0</title>
+            <pubDate>Thu, 23 Apr 2026 19:58:30 +0200</pubDate>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <enclosure url="https://drop.delcedo.com/Drop-my-files_v1.0_b16.zip" length="3389246" type="application/octet-stream" sparkle:edSignature="HEJn3HmQnNTElX8g0pdIT1JOjJ/CKciOkiYArWniBLdPqwN09v2sg7MJFcE4+XJMxhtoFKwV0hlbQYaiwZcQAw=="/>
+            <sparkle:deltas>
+                <enclosure url="https://drop.delcedo.com/Drop-my-files16-15.delta" sparkle:deltaFrom="15" length="97058" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="V6eVVIXg1b9uxCt4hsL/Osu0FWctwuNffAPEGHT/dfjXtXMMipxPf0jep63KtBGOD7Ux6Gbu7dnk4LsiM9A5Dw=="/>
+                <enclosure url="https://drop.delcedo.com/Drop-my-files16-14.delta" sparkle:deltaFrom="14" length="99914" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="I5H//oCIjtrnq0SzECeIcBAL8mOlUUSn5VWkEOafoRtiCpOx5/Ivhyw7Z38OhUEY8+MohgxEDXNHKyjhD/I2Cg=="/>
+                <enclosure url="https://drop.delcedo.com/Drop-my-files16-13.delta" sparkle:deltaFrom="13" length="98746" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="fDE3VNb0KLl/SRLr9kQtybipRwT68IpJsb22cjxzj65vsBiTek5xzuspgjch0WSkB/XBEustR58CWLetmIZrAg=="/>
+                <enclosure url="https://drop.delcedo.com/Drop-my-files16-10.delta" sparkle:deltaFrom="10" length="215418" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="Awav6HSb0Lt15od+s1iWMi1hS00fb4lybyI+1Ihx1j8saZlDmrivRypA3KNF7KZPipY/7SABO8iGvKlKueskDQ=="/>
+                <enclosure url="https://drop.delcedo.com/Drop-my-files16-3.delta" sparkle:deltaFrom="3" length="226854" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="jlsK1ZsGoy+9/YxKefBqmLHvkNkxlZrgwWrXSOALug2EzF8yFxJvqDMvduo3roiAj+YDfaeu9LrsgQNxkwWaAg=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
             <pubDate>Thu, 23 Apr 2026 16:32:36 +0200</pubDate>
             <sparkle:version>15</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
@@ -29,19 +44,6 @@
                 <enclosure url="https://drop.delcedo.com/Drop-my-files14-10.delta" sparkle:deltaFrom="10" length="185078" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YTAM6T7x9BTVCQM+z4C0JKhGQqZGrpJbmzkeLyUwOx5uQji0SaNVXUs9b8X6t+2IcFQDcLlQ9RiZKDomBWatCA=="/>
                 <enclosure url="https://drop.delcedo.com/Drop-my-files14-3.delta" sparkle:deltaFrom="3" length="206246" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XnAoILODO8AV+tjf7FcmvSchUbRPIIaD4rp6W4TUlY/L+eGm19tB0vRLCcC9NBR2ncncIqOiH3JawxNJ/vfGBA=="/>
                 <enclosure url="https://drop.delcedo.com/Drop-my-files14-1.delta" sparkle:deltaFrom="1" length="223318" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9z8rMBWa/Dcne+ZEcTiy9JkQGy4lvlCgvHu+lM1/imD+dim7jd2VWXUHa2O1uAjytl0ZFuax7dkheFUiGAgDBQ=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Thu, 23 Apr 2026 16:16:32 +0200</pubDate>
-            <sparkle:version>13</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
-            <enclosure url="https://drop.delcedo.com/Drop-my-files_v1.0_b13.zip" length="3376647" type="application/octet-stream" sparkle:edSignature="iyZ2XO2AMmBLbJQlKvmGARDKZIg9Qb0qSJN8DbcSVNmGVuokWjWmfxia1Y09ZljcYW9oQmfK5OnHUjKnR/KwDQ=="/>
-            <sparkle:deltas>
-                <enclosure url="https://drop.delcedo.com/Drop-my-files13-10.delta" sparkle:deltaFrom="10" length="185038" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="pQf2CZMiTj7pyWTDpNj0vNuIcu7ikvG7C5MbD1FlMGCgtiF6eMV45AuvgpYadpU2TwIE884O2GB8h5sofCfTAg=="/>
-                <enclosure url="https://drop.delcedo.com/Drop-my-files13-3.delta" sparkle:deltaFrom="3" length="207362" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="FkfudFWGULKJjeG1YIsx/u8m7ocmplcc+9yDrSk4fmHpCKyV0iWuE2cpMGISmMQpTRv4inGuPr+cfP9jPIorBw=="/>
-                <enclosure url="https://drop.delcedo.com/Drop-my-files13-1.delta" sparkle:deltaFrom="1" length="223450" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="q+zdWt59Bf+tQUy32Zm9ddJ4hYrx6w5BwgEvHsTg/vtDkYy9FrT+oC6WWWNN14YZPFxrKCTbjnxdDqyGyWTXDQ=="/>
             </sparkle:deltas>
         </item>
     </channel>

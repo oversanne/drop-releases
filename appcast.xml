@@ -4,6 +4,20 @@
         <title>Dropover</title>
         <item>
             <title>1.0</title>
+            <pubDate>Thu, 23 Apr 2026 16:23:14 +0200</pubDate>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
+            <enclosure url="https://drop.delcedo.com/Drop-my-files_v1.0_b14.zip" length="3376632" type="application/octet-stream" sparkle:edSignature="Tdx/gJLE3vWYA0rBFqi9PAzO8o2TOC1jciaNfXw/WeEviBd1mtZn0+mEzmTyLMvlPSl5WytvmR48HpC1KDojCg=="/>
+            <sparkle:deltas>
+                <enclosure url="https://drop.delcedo.com/Drop-my-files14-13.delta" sparkle:deltaFrom="13" length="11706" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="ogkrMrERyXIsJ0Va/xJg5uR9rdvY2ptJ0VJSjW8tKXNcksPTcSJ/zJKefIf+SYoR3QVDLHKHT8rB27c+6/boDg=="/>
+                <enclosure url="https://drop.delcedo.com/Drop-my-files14-10.delta" sparkle:deltaFrom="10" length="185078" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="YTAM6T7x9BTVCQM+z4C0JKhGQqZGrpJbmzkeLyUwOx5uQji0SaNVXUs9b8X6t+2IcFQDcLlQ9RiZKDomBWatCA=="/>
+                <enclosure url="https://drop.delcedo.com/Drop-my-files14-3.delta" sparkle:deltaFrom="3" length="206246" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="XnAoILODO8AV+tjf7FcmvSchUbRPIIaD4rp6W4TUlY/L+eGm19tB0vRLCcC9NBR2ncncIqOiH3JawxNJ/vfGBA=="/>
+                <enclosure url="https://drop.delcedo.com/Drop-my-files14-1.delta" sparkle:deltaFrom="1" length="223318" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="9z8rMBWa/Dcne+ZEcTiy9JkQGy4lvlCgvHu+lM1/imD+dim7jd2VWXUHa2O1uAjytl0ZFuax7dkheFUiGAgDBQ=="/>
+            </sparkle:deltas>
+        </item>
+        <item>
+            <title>1.0</title>
             <pubDate>Thu, 23 Apr 2026 16:16:32 +0200</pubDate>
             <sparkle:version>13</sparkle:version>
             <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
@@ -25,17 +39,6 @@
             <sparkle:deltas>
                 <enclosure url="https://drop.delcedo.com/Drop-my-files10-3.delta" sparkle:deltaFrom="3" length="67278" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977808" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="LHD3ijf/hfU1q+xTzwcTCoRww6vPifys3ocSR+t3UlmGIVbqsZPJz8PtpEBY8VpMM9jOaskElwvDTs5c9YKTDw=="/>
                 <enclosure url="https://drop.delcedo.com/Drop-my-files10-1.delta" sparkle:deltaFrom="1" length="93718" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="WLO/YRUOwVBSGTQq3237o1Hs+3erQzN/7q+qb06M3TrToPTOcVn/LapIc5YpGp6YDPORJZL9/AJGHa6mW+dZDw=="/>
-            </sparkle:deltas>
-        </item>
-        <item>
-            <title>1.0</title>
-            <pubDate>Wed, 22 Apr 2026 15:07:44 +0200</pubDate>
-            <sparkle:version>3</sparkle:version>
-            <sparkle:shortVersionString>1.0</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>26.2</sparkle:minimumSystemVersion>
-            <enclosure url="https://oversanne.github.io/drop-releases/Drop-my-files_v1.0_b3.zip" length="3127627" type="application/octet-stream" sparkle:edSignature="w6u976zbWwKENjXUVcOXob3Zp2Mxjg6sjk7M/5TXVGEU7IxuwISAGXMrt9xmws8MdQXtHkjK81janussXS6YDA=="/>
-            <sparkle:deltas>
-                <enclosure url="https://oversanne.github.io/drop-releases/Drop-my-files3-1.delta" sparkle:deltaFrom="1" length="69042" type="application/octet-stream" sparkle:deltaFromSparkleExecutableSize="977840" sparkle:deltaFromSparkleLocales="de,he,ar,el,ja,fa,uk" sparkle:edSignature="4Il3Jf+ojIMwTWotar/y/MlPtRhRSTSBGb4zXq0PPZMZIY0lMja5Eeitrkh/hLPSUfWY5m54ibvit5dX9B2zAQ=="/>
             </sparkle:deltas>
         </item>
     </channel>
